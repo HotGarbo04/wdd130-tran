@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -----Color Palette-----
+Primary: #B22222 Fire Brick
+Secondary: #FFF5E1 Cosmic Latte
+Accent1: #2E8B57 Sea Green
+Accent2: #333333 Jet
+
+-----Fonts----- (Check google fonts)
+Heading Font: Playfair Display (elegant, traditional)
+Paragraph Font: Open Sans or Roboto (clear and modern)
+*/
+
+.main-container {
+    background-color: #FFF5E1;
+    margin: 10px 50px 0px 50px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.header {
+    justify-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+#hero-text {
+    justify-items: center;
+}
+
+#hero-p2 {
+    max-width: 500px;
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#home-content {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+}
+
+.home-imgs {
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+#pho-info {
+    grid-column: 1 / 2;
+    background-color: #2E8B57;
+}
+
+#pho-info h3 {
+    justify-self: center;
+}
+
+#goi-info {
+    grid-column: 2 / 3;
+    background-color: #2E8B57;
+}
+
+#goi-info h3 {
+    justify-self: center;
+}
+
+#banh-info {
+    grid-column: 3 / 4;
+    background-color: #2E8B57;
+}
+
+#banh-info h3 {
+    justify-self: center;
+}
+
+.footer {
+    justify-items: center;
+}
