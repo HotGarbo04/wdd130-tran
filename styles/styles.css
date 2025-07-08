@@ -50,6 +50,13 @@ Paragraph Font: Open Sans or Roboto (clear and modern)
     padding-top: 10px;
 }
 
+#recipe-content {
+     justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+}
+
 .home-imgs {
     max-width: 300px;
     max-height: 300px;
@@ -58,6 +65,11 @@ Paragraph Font: Open Sans or Roboto (clear and modern)
 
 #pho-info {
     grid-column: 1 / 2;
+    background-color: #2E8B57;
+}
+
+#pho-r-info {
+     grid-column: 1 / 2;
     background-color: #2E8B57;
 }
 
@@ -70,12 +82,22 @@ Paragraph Font: Open Sans or Roboto (clear and modern)
     background-color: #2E8B57;
 }
 
+#goi-r-info {
+     grid-column: 2 / 3;
+    background-color: #2E8B57;
+}
+
 #goi-info h3 {
     justify-self: center;
 }
 
 #banh-info {
     grid-column: 3 / 4;
+    background-color: #2E8B57;
+}
+
+#banh-r-info {
+     grid-column: 3 / 4;
     background-color: #2E8B57;
 }
 
